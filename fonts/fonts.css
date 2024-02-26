@@ -1,0 +1,28 @@
+:root {
+    --primary-100: #8D6E63;
+    --primary-200: #be9c91;
+    --primary-300: #fffff3;
+    --accent-100: #FF9800;
+    --accent-200: #8f3d00;
+    --text-100: #FFFFFF;
+    --text-200: #e0e0e0;
+    --bg-100: #d9d0c0;
+    --bg-200: #ebebeb;
+    --bg-300: #c2c2c2;
+    --select-100: #bda796;
+}
+
+@font-face {
+    font-family: SoDoSans-Bold;
+    src: url(SoDoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: SoDoSans-Regular;
+    src: url(SoDoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roshivall;
+    src: url(/fonts/Roshivall.otf);
+}

@@ -1,0 +1,249 @@
+/* Iconos */
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-straight/css/uicons-solid-straight.css');
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900display=swap');
+@import url(/fonts/fonts.css);
+
+/* Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-100);
+}
+
+.start-header-info {
+    background-image: url(/bannerImages/background-6171629_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 6rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header .name-web {
+    color: #fff;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: Roshivall;
+    letter-spacing: 5px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+header nav ul li a {
+    color: #fff;
+}
+
+header nav ul li a:hover {
+    color: var(--primary-200);
+}
+
+.start-header-info .welcome-content {
+    display: flex;
+    padding: 30px 6rem 10rem 6rem;
+    /* padding: arriba derecha abajo izquiera */
+    color: #fff;
+    flex-direction: column;
+    width: 700px;
+}
+
+.start-header-info .welcome-content h2 {
+    font-weight: 600;
+
+}
+
+.start-header-info .welcome-content h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.welcome-content .btn-coffee {
+    display: flex;
+    padding: 15px 0;
+}
+
+.welcome-content .btn-coffee a {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.welcome-content .btn-coffee a:hover {
+    background-color: var(--select-100);
+}
+
+/* ------------------------------ */
+.menu-list {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.menu-list img {
+    width: 40px;
+}
+
+/* ------------------------------ */
+
+.subtitle-1 {
+    text-align: center;
+    padding: 50px 0 10px 0;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: var(--bg-200);
+}
+
+.special-coffee-list {
+    background-color: var(--bg-200);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 100px;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.special-coffee-list .coffee-card {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-100);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.special-coffee-list .coffee-card h1 {
+    font-size: 16px;
+    color: var(--primary-100);
+
+}
+
+.special-coffee-list .coffee-card p {
+    overflow: auto;
+    scrollbar-color: var(--bg-100) var(--bg-200);
+    scrollbar-width: 1px;
+    height: 60px;
+    font-size: 13px;
+}
+
+.special-coffee-list .coffee-card img {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.coffee-card .coffee-card-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coffee-card .coffee-card-price a {
+    background-color: var(--primary-100);
+    color: #000;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 50px;
+    padding: 3px 10px;
+    transition: .2s;
+}
+
+.coffee-card .coffee-card-price a:hover {
+    background-color: var(--primary-200);
+}
+
+/* ------------------------------ */
+
+.box-coffee-2 {
+    background-image: url(/bannerImages/coffee-banner-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.box-coffee-2 h1 {
+    font-size: 50px;
+    width: 500px;
+    color: #fff;
+    text-shadow: var(--primary-100) 0 0 5px;
+}
+
+.box-coffee-2 .btn-coffee-2 {
+    padding: 30px 0 0 0;
+}
+
+.box-coffee-2 .btn-coffee-2 a {
+    background-color: var(--primary-100);
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.box-coffee-2 .btn-coffee-2 a:hover {
+    background-color: var(--primary-200);
+}
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+
+
+@media (max-width: 767px) {
+    header {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .start-header-info .welcome-content {
+        width: auto;
+        padding: 15px;
+    }
+
+    .start-header-info .welcome-content h1 {
+        text-shadow: var(--primary-100) 0 0 5px;
+    }
+
+    .menu-list {
+        gap: 25px;
+    }
+
+    .box-coffee-2 h1 {
+        width: 350px;
+    }
+
+}
